@@ -4,8 +4,9 @@ class Solution {
         if (s == null || s.length() < 1) return "";
 
         int start = 0, end = 0;
+        int sl= s.length();
 
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < sl ; i++) {
             // Check for odd-length palindrome
             int len1 = expandAroundCenter(s, i, i);
             // Check for even-length palindrome
