@@ -1,10 +1,10 @@
 class Solution {
     public String longestPalindrome(String s) {
-        
-        if (s == null || s.length() < 1) return "";
+        int sl= s.length();
+        if (s == null || sl < 1) return "";
 
         int start = 0, end = 0;
-        int sl= s.length();
+        
 
         for (int i = 0; i < sl ; i++) {
             // Check for odd-length palindrome
