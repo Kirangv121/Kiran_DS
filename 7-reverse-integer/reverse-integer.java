@@ -5,7 +5,6 @@ class Solution {
         while(x!=0){
             int digit = x%10;
             x= x/10;
-
         
 
         if(reverse > Integer.MAX_VALUE /10 || (reverse == Integer.MAX_VALUE /10 && digit > 7))
